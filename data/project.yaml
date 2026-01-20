@@ -5,12 +5,54 @@ section:
   button:
     title: Find more
 
-title: Rover Vajra
+title: Our Rovers
 hero: hero.jpg
 image: rover.png
 video: https://www.youtube.com/embed/UsM94GlrtN0
-description: Our six-wheeled rover have a custom rocker-bogie suspension system with a low center of gravity designed for better stability and manoeuvrability. We have develop a robotic manipulator with 5 degrees of freedom with a task-specific end effector for better operational accuracy and repeatability. Our rover is having a robust autonomous system capable of path planning and traversal, specially trained for highly uncertain and challenging terrains.
+description: Our Rovers over the years
+
+---
+title: International Rover Challenge (IRC)
+hero: irc_hero.jpg
+image: irc_cover.jpg
+
+description: |
+  The International Rover Challenge (IRC) is a global Mars rover competition
+  that evaluates student teams on rover design, autonomy, manipulation,
+  and real-world field operations in Mars-analog environments.
+
 attributes:
+  competition: International Rover Challenge
+  role: Team Participation & System Development
+  representation: India
+  years: 2024, 2025
+
+parts:
+  - title: Team Contributions
+    image: irc_task.jpg
+    description: |
+      - Mechanical design of rover chassis and rocker-bogie suspension  
+      - Integration of a 5-DOF robotic manipulator with task-specific end-effectors  
+      - Development of autonomy stack for navigation and traversal  
+      - System integration, testing, and on-field deployment  
+
+  - title: Achievements
+    image: irc_team.jpg
+    description: |
+      - IRC 2024: Secured 21st rank overall  
+      - IRC 2025: Secured 16th rank overall  
+      - Recognized for strong autonomous task performance  
+
+  - title: Learning Outcomes
+    image: irc_field.jpg
+    description: |
+      - End-to-end rover development lifecycle  
+      - Real-world testing under competition constraints  
+      - Cross-domain collaboration across mechanical, electrical, and software teams  
+
+      
+attributes:
+- title: Rover Vajra 
   height: 1 m / 1 ft
   diameter: 1 m / 1 ft
   mass: 2 kg / 2 lb
