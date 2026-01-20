@@ -1,56 +1,54 @@
-- section:
-    title: About our project
+section:
+  title: About our project
+  description: >
+    Our six-wheeled rover has a custom rocker-bogie suspension system with a low
+    center of gravity designed for better stability and manoeuvrability. We have
+    developed a robotic manipulator with 5 degrees of freedom and a task-specific
+    end effector. Our rover features a robust autonomous system capable of path
+    planning and traversal in highly uncertain terrains.
+  cover: sectionCover.jpg
+  button:
+    title: Find more
+
+projects:
+  - title: Rover Vajra
+    hero: hero.jpg
+    image: rover.png
+    video: https://www.youtube.com/embed/UsM94GlrtN0
     description: >
-      Our six-wheeled rover has a custom rocker-bogie suspension system with a low
-      center of gravity designed for better stability and manoeuvrability. We have
-      developed a robotic manipulator with 5 degrees of freedom and a task-specific
-      end effector. Our rover features a robust autonomous system capable of path
-      planning and traversal in highly uncertain terrains.
-    cover: sectionCover.jpg
-    button:
-      title: Find more
+      Rover Vajra is a six-wheeled Mars rover designed for stable traversal,
+      dexterous manipulation, and autonomous navigation in challenging terrain.
+    attributes:
+      height: 1 m
+      diameter: 1 m
+      mass: 2 kg
+    parts:
+      - title: Rover Platform
+        image: rover.png
+        description: >
+          Custom rocker-bogie suspension with optimized weight distribution
+          for off-road stability and mobility.
 
-- title: Rover Vajra
-  hero: hero.jpg
-  image: rover.png
-  video: https://www.youtube.com/embed/UsM94GlrtN0
-  description: >
-    Rover Vajra is a six-wheeled Mars rover designed for stable traversal,
-    dexterous manipulation, and autonomous navigation in challenging terrain.
-  attributes:
-    height: 1 m
-    diameter: 1 m
-    mass: 2 kg
-  parts:
-    - title: Rover Platform
-      image: rover.png
-      description: >
-        Custom rocker-bogie suspension with optimized weight distribution
-        for off-road stability and mobility.
+  - title: International Rover Challenge (IRC)
+    hero: irc_hero.jpg
+    image: irc_cover.jpg
+    description: >
+      The International Rover Challenge (IRC) is a global Mars rover competition
+      evaluating student teams on rover design, autonomy, manipulation, and
+      real-world field operations.
+    attributes:
+      competition: IRC
+      representation: India
+      participation: 2024, 2025
+    parts:
+      - title: Team Contributions
+        image: irc_task.jpg
+        description: >
+          Mechanical design of rover chassis and suspension, integration of a
+          5-DOF robotic manipulator, autonomy stack development, and system
+          integration with extensive field testing.
 
-- title: International Rover Challenge (IRC)
-  hero: irc_hero.jpg
-  image: irc_cover.jpg
-  description: >
-    The International Rover Challenge (IRC) is a global Mars rover competition
-    evaluating student teams on rover design, autonomy, manipulation, and
-    real-world field operations.
-
-  attributes:
-    competition: IRC
-    representation: India
-    participation: 2024, 2025
-
-  parts:
-    - title: Team Contributions
-      image: irc_task.jpg
-      description: >
-        Mechanical design of rover chassis and suspension, integration of a
-        5-DOF robotic manipulator, autonomy stack development, and system
-        integration with extensive field testing.
-
-    - title: Achievements
-      image: irc_team.jpg
-      description: >
-        IRC 2024: 21st rank overall. IRC 2025: 16th rank overall. Recognized
-        for strong autonomous task performance.
+      - title: Achievements
+        image: irc_team.jpg
+        description: >
+          IRC 2024: 21st rank overall. IRC 2025: 16th rank overall.
