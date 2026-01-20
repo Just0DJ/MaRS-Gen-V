@@ -1,101 +1,57 @@
 section:
   title: About our project
-  description: Our six-wheeled rover have a custom rocker-bogie suspension system with a low center of gravity designed for better stability and manoeuvrability. We have develop a robotic manipulator with 5 degrees of freedom with a task-specific end effector for better operational accuracy and repeatability. Our rover is having a robust autonomous system capable of path planning and traversal, specially trained for highly uncertain and challenging terrains.
+  description: >
+    Our six-wheeled rover has a custom rocker-bogie suspension system with a low
+    center of gravity designed for better stability and manoeuvrability. We have
+    developed a robotic manipulator with 5 degrees of freedom and a task-specific
+    end effector. Our rover features a robust autonomous system capable of path
+    planning and traversal in highly uncertain terrains.
   cover: sectionCover.jpg
   button:
     title: Find more
 
-title: Our Rovers
-hero: hero.jpg
-image: rover.png
-video: https://www.youtube.com/embed/UsM94GlrtN0
-description: Our Rovers over the years
-
----
-title: International Rover Challenge (IRC)
-hero: irc_hero.jpg
-image: irc_cover.jpg
-
-description: |
-  The International Rover Challenge (IRC) is a global Mars rover competition
-  that evaluates student teams on rover design, autonomy, manipulation,
-  and real-world field operations in Mars-analog environments.
-
-attributes:
-  competition: International Rover Challenge
-  role: Team Participation & System Development
-  representation: India
-  years: 2024, 2025
-
-parts:
-  - title: Team Contributions
-    image: irc_task.jpg
-    description: |
-      - Mechanical design of rover chassis and rocker-bogie suspension  
-      - Integration of a 5-DOF robotic manipulator with task-specific end-effectors  
-      - Development of autonomy stack for navigation and traversal  
-      - System integration, testing, and on-field deployment  
-
-  - title: Achievements
-    image: irc_team.jpg
-    description: |
-      - IRC 2024: Secured 21st rank overall  
-      - IRC 2025: Secured 16th rank overall  
-      - Recognized for strong autonomous task performance  
-
-  - title: Learning Outcomes
-    image: irc_field.jpg
-    description: |
-      - End-to-end rover development lifecycle  
-      - Real-world testing under competition constraints  
-      - Cross-domain collaboration across mechanical, electrical, and software teams  
-
-      
-attributes:
-- title: Rover Vajra 
-  height: 1 m / 1 ft
-  diameter: 1 m / 1 ft
-  mass: 2 kg / 2 lb
-  payload to leo: 1 kg / 1 lb
-  payload to gto: 1 kg / 1 lb
-  payload to mars: 1 kg / 1 lb
-
-parts:
-  - title: Rover Vajra 
-    image: rover.png
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
-    attributes:
-      number of engines: 1
-      thrust at sea level: 1 kN / 1 lbf
-      thrust in vacuum: 1 kN / 1 lbf
-
-  - title: Rover Vajra 
+projects:
+  - title: Rover Vajra
+    hero: hero.jpg
     image: rover.png
     video: https://www.youtube.com/embed/UsM94GlrtN0
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
-
-  - title: Rover Vajra
-    image: rover.png
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
-      ## GRID FINS
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
-
-  - title: Rover Vajra
-    image: rover.png
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
+    description: >
+      Rover Vajra is a six-wheeled Mars rover designed for stable traversal,
+      dexterous manipulation, and autonomous navigation in challenging terrain.
     attributes:
-      number of engines: 1
-      burn time: 1 sec
-      thrust: 1 kN / 1 lbf
+      height: 1 m
+      diameter: 1 m
+      mass: 2 kg
+    parts:
+      - title: Rover Platform
+        image: rover.png
+        description: >
+          Custom rocker-bogie suspension with optimized weight distribution
+          for off-road stability and mobility.
 
-  - title: Rover Vajra
-    image: rover.png
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.
-    link:
-      title: Learn more about SpaceX reusability
-      target: https://www.spacex.com/mission/
+  - title: International Rover Challenge (IRC)
+    hero: irc_hero.jpg
+    image: irc_cover.jpg
+    description: >
+      The International Rover Challenge (IRC) is a global Mars rover competition
+      that evaluates student teams on rover design, autonomy, manipulation, and
+      real-world field operations.
+
     attributes:
-      height: 1 m / 1 ft
-      diameter: 1 m / 1 ft
+      competition: IRC
+      representation: India
+      participation: 2024, 2025
+
+    parts:
+      - title: Team Contributions
+        image: irc_task.jpg
+        description: >
+          Mechanical design of rover chassis and suspension, integration of a
+          5-DOF robotic manipulator, autonomy stack development, and full system
+          integration with field testing.
+
+      - title: Achievements
+        image: irc_team.jpg
+        description: >
+          IRC 2024: 21st rank overall. IRC 2025: 16th rank overall. Recognized
+          for strong autonomous task performance.
