@@ -1,8 +1,7 @@
 section:
   title: Blog
   description: |
-   Insights, stories, and breakthroughs from the journey of building rovers for Earth and beyond
-
+    Insights, stories, and breakthroughs from the journey of building rovers for Earth and beyond
   cover: sectionCover.jpg
   button:
     title: Lorem ipsum
